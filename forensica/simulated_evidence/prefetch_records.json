@@ -1,0 +1,12 @@
+[
+  {
+    "process": "POWERSHELL.EXE",
+    "last_run": "2026-06-09T18:05:05Z",
+    "run_count": 14
+  },
+  {
+    "process": "SCHTASKS.EXE",
+    "last_run": "2026-06-09T18:10:00Z",
+    "run_count": 3
+  }
+]

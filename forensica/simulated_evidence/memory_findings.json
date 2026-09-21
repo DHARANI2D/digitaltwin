@@ -1,0 +1,19 @@
+[
+  {
+    "plugin": "windows.pslist",
+    "process": "powershell.exe",
+    "pid": 4821,
+    "ppid": 3812,
+    "timestamp": "2026-06-09T18:05:05Z"
+  },
+  {
+    "plugin": "windows.netscan",
+    "pid": 4821,
+    "local_ip": "192.168.1.105",
+    "local_port": 49201,
+    "remote_ip": "185.220.101.47",
+    "port": 443,
+    "proto": "TCP",
+    "state": "ESTABLISHED"
+  }
+]

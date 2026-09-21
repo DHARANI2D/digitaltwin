@@ -1,0 +1,8 @@
+[
+  {
+    "key": "HKLM\\Software\\Microsoft\\Windows\\CurrentVersion\\Run",
+    "value": "Updater",
+    "data": "C:\\Users\\Public\\svchost32.exe",
+    "last_write": "2026-06-09T18:09:00Z"
+  }
+]
